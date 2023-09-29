@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :posts
   get("/", { :controller => "misc", :action => "homepage" })
 
   get("/rock", { :controller => "game", :action => "user_plays_rock" })
