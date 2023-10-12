@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-bundle install
+bundle install --jobs 4
 
 # For Ruby on Rails apps uncomment these lines to precompile assets and migrate your database.
 # bundle exec rake assets:precompile
